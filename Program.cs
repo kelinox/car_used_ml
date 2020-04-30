@@ -1,13 +1,11 @@
 ﻿using System;
 using System.IO;
 using Microsoft.ML;
-using Microsoft.ML.Trainers;
 
 namespace carUserPredictionPrice
 {
     class Program
     {
-
         static readonly string _trainDataPath = Path.Combine(Environment.CurrentDirectory, "assets", "training_data.csv");
         static readonly string _testDataPath = Path.Combine(Environment.CurrentDirectory, "assets", "test_data.csv");
 
@@ -37,7 +35,7 @@ namespace carUserPredictionPrice
                     "ReleaseYear",
                     "Kilometers"
                 ))
-                .Append(context.Regression.Trainers.FastTree());
+                .Append(context.Regression.Trainers.FastTree(numberOfTrees: 500, numberOfLeaves: 50));
 
             var model = pipeline.Fit(dataViewShuffled);
 
@@ -58,6 +56,8 @@ namespace carUserPredictionPrice
             Console.WriteLine($"*------------------------------------------------");
             Console.WriteLine($"*       RSquared Score:      {metrics.RSquared:0.##}");
             Console.WriteLine($"*       Root Mean Squared Error:      {metrics.RootMeanSquaredError:#.##}");
+            Console.WriteLine($"*************************************************");
+            Console.WriteLine();
         }
 
         private static void TestSinglePrediction(MLContext context, ITransformer model)

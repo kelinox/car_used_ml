@@ -31,3 +31,8 @@
 /home/lucas/Documents/netcore/carUsedML/carUserPredictionPrice/bin/Debug/netcoreapp3.1/runtimes/osx-x64/native/libFastTreeNative.dylib
 /home/lucas/Documents/netcore/carUsedML/carUserPredictionPrice/bin/Debug/netcoreapp3.1/runtimes/win-x64/native/FastTreeNative.dll
 /home/lucas/Documents/netcore/carUsedML/carUserPredictionPrice/bin/Debug/netcoreapp3.1/runtimes/win-x86/native/FastTreeNative.dll
+/home/lucas/Documents/netcore/carUsedML/carUserPredictionPrice/bin/Debug/netcoreapp3.1/Microsoft.ML.LightGbm.dll
+/home/lucas/Documents/netcore/carUsedML/carUserPredictionPrice/bin/Debug/netcoreapp3.1/runtimes/linux-x64/native/lib_lightgbm.so
+/home/lucas/Documents/netcore/carUsedML/carUserPredictionPrice/bin/Debug/netcoreapp3.1/runtimes/osx-x64/native/lib_lightgbm.dylib
+/home/lucas/Documents/netcore/carUsedML/carUserPredictionPrice/bin/Debug/netcoreapp3.1/runtimes/win-x64/native/lib_lightgbm.dll
+/home/lucas/Documents/netcore/carUsedML/carUserPredictionPrice/bin/Debug/netcoreapp3.1/runtimes/win-x64/native/lightgbm.exe

@@ -1,14 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "IshiPjc3ohjtGWNRQf65MIKbwWdeVEuXjMh4fQWJTlMmEpOCA35vnIuGyUMBWUJhaZkKr9gLiE7izxETxsEmeA==",
+  "dgSpecHash": "99xzqhwSko6Ypl+dXDYLVj3Cl7r3K+Yqtdwe4a1ZRaSGwap0aVFrDQJ0PwzaJEuLAyZhRp2s3dR5AegjDFGzlg==",
   "success": true,
   "projectFilePath": "/home/lucas/Documents/netcore/carUsedML/carUserPredictionPrice/carUserPredictionPrice.csproj",
   "expectedPackageFiles": [
+    "/home/lucas/.nuget/packages/lightgbm/2.2.3/lightgbm.2.2.3.nupkg.sha512",
     "/home/lucas/.nuget/packages/microsoft.csharp/4.3.0/microsoft.csharp.4.3.0.nupkg.sha512",
     "/home/lucas/.nuget/packages/microsoft.ml/1.4.0/microsoft.ml.1.4.0.nupkg.sha512",
     "/home/lucas/.nuget/packages/microsoft.ml.cpumath/1.4.0/microsoft.ml.cpumath.1.4.0.nupkg.sha512",
     "/home/lucas/.nuget/packages/microsoft.ml.dataview/1.4.0/microsoft.ml.dataview.1.4.0.nupkg.sha512",
     "/home/lucas/.nuget/packages/microsoft.ml.fasttree/1.4.0/microsoft.ml.fasttree.1.4.0.nupkg.sha512",
+    "/home/lucas/.nuget/packages/microsoft.ml.lightgbm/1.4.0/microsoft.ml.lightgbm.1.4.0.nupkg.sha512",
     "/home/lucas/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "/home/lucas/.nuget/packages/microsoft.netcore.targets/1.1.0/microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "/home/lucas/.nuget/packages/microsoft.win32.primitives/4.3.0/microsoft.win32.primitives.4.3.0.nupkg.sha512",
